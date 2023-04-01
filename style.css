@@ -80,7 +80,7 @@ ol li:hover{
 table{
     width:100%;
     padding:15px;
-    border: 1px solid white;
+    border: 1px solid  #3b5998;
     border-collapse: collapse;
     border-bottom-color: red;
     
@@ -91,7 +91,7 @@ padding:10px;
 font-weight: bold;
 font-family: 'Itim';
 text-align: center;
-border: 1px solid white;
+border: 1px solid  #3b5998;
 
 
 }
@@ -112,18 +112,9 @@ color: red;
 
 }
 .teams{
-    position: relative;
+   background:#3b5998;
 }
-.footer{
-height: 100px;
-width: 100%;
-background-color: darkmagenta;
-color: white;
-position: relative;
-bottom: 0px;
-top:100vh;
 
-}
 @media  screen and (max-width:700px) {
 #nav ul li a {
     padding: 3px;
@@ -140,6 +131,9 @@ top:100vh;
     padding: 3px;
     font-size: 13px;
 
+}
+#nav,.list{
+height:60px;
 }
 table{
     padding: 0px;
@@ -243,5 +237,12 @@ padding:8px;
   }
 }
 
+@media only screen and (min-width:780px) {
 
+  .footer-container {
 
+    position:relative;
+height:15vh;
+bottom:0px;
+  }
+}
