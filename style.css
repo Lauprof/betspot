@@ -1,0 +1,247 @@
+#nav{
+    background-color: darkblue;
+    height: 100px;
+    width: 100%;
+    
+}
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+ul {
+    list-style-type: none;
+    
+}
+ul li{
+    float: right;
+    padding: 15px;
+    color: red;
+    font-family: 'Itim';
+}
+ul li a{
+    text-decoration: none;
+    padding: 5px;
+    color:red;
+}
+ul li a:hover{
+    background-color: white;
+
+}
+.row::after{
+    display: inline-table;
+    clear: both;
+    content: "";
+}
+.col{
+float: right;
+padding:5px;
+width: 100%;
+
+}
+.first{
+    width: 50%;
+   
+   
+    float: left;
+
+}
+
+
+
+.second{
+    width: 50%;
+    float: left;
+}
+
+.list{
+    background-color: black;
+    width: 100%;
+    height:100px;
+
+    
+    padding: 15px;
+    
+}
+ol {
+list-style-type: none;
+
+}
+ol li{
+    padding: 20px;
+    float: left;
+font-family:'Itim';
+    color: white;
+}
+ol li:hover{
+    cursor: pointer;
+    background-color: hotpink;
+}
+table{
+    width:100%;
+    padding:15px;
+    border: 1px solid white;
+    border-collapse: collapse;
+    border-bottom-color: red;
+    
+}
+
+td,th{
+padding:10px;
+font-weight: bold;
+font-family: 'Itim';
+text-align: center;
+border: 1px solid white;
+
+
+}
+.teams td a{
+text-decoration: none;
+border:1px solid lightblue;
+border-radius: 4px;
+padding: 5px;
+background-color: darkmagenta;
+color: white;
+
+
+}
+.teams td a:hover{
+cursor: progress;
+color: red;
+
+
+}
+.teams{
+    position: relative;
+}
+.footer{
+height: 100px;
+width: 100%;
+background-color: darkmagenta;
+color: white;
+position: relative;
+bottom: 0px;
+top:100vh;
+
+}
+@media  screen and (max-width:700px) {
+#nav ul li a {
+    padding: 3px;
+    
+    font-size: 11px;
+    display: inline-block;
+}
+#nav ul li{
+    padding: 5px;
+    float: left;
+    
+}
+.list ol li {
+    padding: 3px;
+    font-size: 13px;
+
+}
+table{
+    padding: 0px;
+    width: 100%;
+}
+td,th{
+margin:0px;
+}
+.teams td a{
+padding:3px;
+border-radius:2px;
+}
+.footer{
+top:40vh;
+
+}
+
+    
+}
+
+/* Default styles */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links ul {
+  list-style: none;
+  display: flex;
+}
+
+.footer-links li {
+  margin-right: 20px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.social-icons a:hover {
+  color: #bbb;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-twitter {
+  color: #1da1f2;
+}
+
+.fa-instagram {
+  color: #e4405f;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .footer-links li {
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .footer-links li {
+    margin-right: 5px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icons a {
+    margin-right: 5px;
+padding:8px;
+  }
+}
+
+
+
